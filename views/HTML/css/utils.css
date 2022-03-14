@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:ital,wght@1,300&display=swap');
+:root{
+    --main-bg-color: rgba(163, 86, 24, 0.966);
+    --font1: 'Ubuntu', sans-serif;
+    --font2: : 'Baloo Bhai 2', cursive;
+    /* --main-bg-color: rgb(238, 43, 43); */
+}
+.center{
+    text-align: center;
+}
+.font-1{
+    font-family: var(--font1);
+}
+.font-2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    width: 80vw;
+    
+}
+.max-width-2{
+    width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    /* margin: 32px 0px; */
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.btn{
+    width: 80px;
+    padding: 4px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.btn:hover{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+.form-input{
+    padding: 3px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0px 12px;
+    font-family: var(--font1);
+}
+.form-box input, textarea{
+    width: 44vw;
+    padding: 7px;
+    margin: 3px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 12px;
+    cursor: pointer;
+}
